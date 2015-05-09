@@ -1,0 +1,5 @@
+/STK3700_usbEcho/GNU ARM v4.8.3 - Release/BSP/*.d
+/STK3700_usbEcho/GNU ARM v4.8.3 - Release/BSP/*.o
+*.o
+*.d
+*.mk
