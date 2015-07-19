@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -std=c99 -c -DSTM32F051R8 -DSTM32F0XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\lukasz\Desktop\CurrentProjects\SmallProjects -I..\..\..\..\..\Users\lukasz\Desktop\CurrentProjects\SmallProjects\ZamekKodowy\TXCode\FreeRtosFiles -I..\..\..\..\..\Users\lukasz\Desktop\CurrentProjects\SmallProjects\ZamekKodowy -I..\..\..\..\..\Users\lukasz\Desktop\CurrentProjects\SmallProjects\ZamekKodowy\TXCode -I..\..\..\..\..\Users\lukasz\Desktop\CurrentProjects\SmallProjects\ZamekKodowy\TXCode\cmsis_boot -I..\..\..\..\..\Users\lukasz\Desktop\CurrentProjects\SmallProjects\ZamekKodowy\TXCode\stm_lib\inc -I..\..\..\..\..\Users\lukasz\Desktop\CurrentProjects\SmallProjects\ZamekKodowy\TXCode\cmsis_core -I..\..\..\..\..\Users\lukasz\Desktop\CurrentProjects\SmallProjects\ZamekKodowy\TXCode\stm_lib">
+      <target file="stm32f0xx_wwdg.o" lastModified="14eb83c0cab">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_wwdg.c" lastModified="143db070940"/>
+      </target>
+      <target file="tasks.o" lastModified="14eb83bf317">
+         <source file="..\..\..\FreeRtosFiles\tasks.c" lastModified="1424c3180f0"/>
+      </target>
+      <target file="keyboard4x4.o" lastModified="14eb83bfe0e">
+         <source file="..\..\..\keyboard4x4.c" lastModified="14799457bec"/>
+      </target>
+      <target file="croutine.o" lastModified="14eb83c0a3e">
+         <source file="..\..\..\FreeRtosFiles\croutine.c" lastModified="1423735a5a0"/>
+      </target>
+      <target file="printf.o" lastModified="14eb83bf119">
+         <source file="..\..\..\stdio\printf.c" lastModified="143db056dba"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="14eb83c054e">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_tim.c" lastModified="143db0736c0"/>
+      </target>
+      <target file="AT24c64.o" lastModified="14eb83be454">
+         <source file="..\..\..\AT24c64.c" lastModified="147add6b091"/>
+      </target>
+      <target file="stm32f0xx_adc.o" lastModified="14eb83be29b">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_adc.c" lastModified="143db066c57"/>
+      </target>
+      <target file="stm32f0xx_dma.o" lastModified="14eb83bef39">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_dma.c" lastModified="143db06c009"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="14eb83c0b93">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_exti.c" lastModified="143db06da63"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="14eb83bfbe8">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_gpio.c" lastModified="143db063d08"/>
+      </target>
+      <target file="heap_2.o" lastModified="14eb83c11cb">
+         <source file="..\..\..\FreeRtosFiles\heap_2.c" lastModified="14237356720"/>
+      </target>
+      <target file="queue.o" lastModified="14eb83c06de">
+         <source file="..\..\..\FreeRtosFiles\queue.c" lastModified="14237356720"/>
+      </target>
+      <target file="AT24c64_HW.o" lastModified="14eb83bfa6c">
+         <source file="..\..\..\AT24c64_HW.c" lastModified="147adc00581"/>
+      </target>
+      <target file="stm32f0xx_spi.o" lastModified="14eb83bf703">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_spi.c" lastModified="143db071c96"/>
+      </target>
+      <target file="stm32f0xx_syscfg.o" lastModified="14eb83c0f55">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_syscfg.c" lastModified="143db072a2c"/>
+      </target>
+      <target file="stm32_hardware_modules.o" lastModified="14eb83bf59b">
+         <source file="..\..\..\stm32_hardware_modules.c" lastModified="1485bcf7a4f"/>
+      </target>
+      <target file="nRF24L01+.o" lastModified="14eb83c0e4f">
+         <source file="..\..\..\nRF24L01+.c" lastModified="1485bcc3c27"/>
+      </target>
+      <target file="list.o" lastModified="14eb83bff3e">
+         <source file="..\..\..\FreeRtosFiles\list.c" lastModified="14237356720"/>
+      </target>
+      <target file="stm32f0xx_crc.o" lastModified="14eb83bdebc">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_crc.c" lastModified="143db06a9ba"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="14eb83be0ed">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_rcc.c" lastModified="143db061bfd"/>
+      </target>
+      <target file="port.o" lastModified="14eb83c07dc">
+         <source file="..\..\..\FreeRtosFiles\port.c" lastModified="14237356720"/>
+      </target>
+      <target file="stm32f0xx_pwr.o" lastModified="14eb83c10b3">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_pwr.c" lastModified="143db062ac0"/>
+      </target>
+      <target file="timers.o" lastModified="14eb83beda9">
+         <source file="..\..\..\FreeRtosFiles\timers.c" lastModified="14237356720"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="14eb83c12d9">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_misc.c" lastModified="143db204515"/>
+      </target>
+      <target file="syscalls.o" lastModified="14eb83c012a">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="143db056dde"/>
+      </target>
+      <target file="stm32f0xx_usart.o" lastModified="14eb83c02b0">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_usart.c" lastModified="143db074305"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="14eb83beb1f">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="143db05fcf3"/>
+      </target>
+      <target file="stm32f0xx_i2c.o" lastModified="14eb83bf94a">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_i2c.c" lastModified="143db06da82"/>
+      </target>
+      <target file="system_stm32f0xx.o" lastModified="14eb83c0926">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx.c" lastModified="1442dd3c11f"/>
+      </target>
+      <target file="stm32f0xx_iwdg.o" lastModified="14eb83be600">
+         <source file="..\..\..\stm_lib\src\stm32f0xx_iwdg.c" lastModified="143db0782d4"/>
+      </target>
+      <target file="main.o" lastModified="14eb83bea93">
+         <source file="..\..\..\main.c" lastModified="147bbb3cc27"/>
+      </target>
+   </processor>
+</history>

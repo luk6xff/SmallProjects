@@ -1,0 +1,14 @@
+COMMANDS:
+
+GREENx
+BLUEx
+BOTHx
+PWRSETx
+PWRRESETx
+CESETx
+CERESETx
+NOPPx
+STATUSx
+CONFIGx
+
+Tabela ze stanami: str. 24 datasheet

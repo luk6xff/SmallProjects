@@ -1,0 +1,2 @@
+Digital wireless radio transmitter/receiver. TX consists of a 4x4 keyboard that can be used to type a PIN Code and then , the proper generated frame  is being sent to the specified receiver, All PIN codes are stored in non volatile EEPROM memory both in the transmiter and receiver. The device was made using STM32F051R8T6 microntroller , nRF24L01+ radio transceivers, AT24C64D eeprom memory . The entire system is powered by the FREERTOS
+

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.6.2 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=zamekKodowyMaster.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\zamekKodowyMaster -TC:\CooCox\CoIDE\configuration\ProgramData\zamekKodowyMaster/link.ld -g">
+      <target file="zamekKodowyMaster.elf" lastModified="14eb83c1baa">
+         <source file="..\obj\stm32f0xx_crc.o" lastModified="14eb83bdebc"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="14eb83be0ed"/>
+         <source file="..\obj\stm32f0xx_adc.o" lastModified="14eb83be29b"/>
+         <source file="..\obj\AT24c64.o" lastModified="14eb83be454"/>
+         <source file="..\obj\stm32f0xx_iwdg.o" lastModified="14eb83be600"/>
+         <source file="..\obj\main.o" lastModified="14eb83bea93"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="14eb83beb1f"/>
+         <source file="..\obj\timers.o" lastModified="14eb83beda9"/>
+         <source file="..\obj\stm32f0xx_dma.o" lastModified="14eb83bef39"/>
+         <source file="..\obj\printf.o" lastModified="14eb83bf119"/>
+         <source file="..\obj\tasks.o" lastModified="14eb83bf317"/>
+         <source file="..\obj\stm32_hardware_modules.o" lastModified="14eb83bf59b"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="14eb83bf703"/>
+         <source file="..\obj\stm32f0xx_i2c.o" lastModified="14eb83bf94a"/>
+         <source file="..\obj\AT24c64_HW.o" lastModified="14eb83bfa6c"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="14eb83bfbe8"/>
+         <source file="..\obj\keyboard4x4.o" lastModified="14eb83bfe0e"/>
+         <source file="..\obj\list.o" lastModified="14eb83bff3e"/>
+         <source file="..\obj\syscalls.o" lastModified="14eb83c012a"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="14eb83c02b0"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="14eb83c054e"/>
+         <source file="..\obj\queue.o" lastModified="14eb83c06de"/>
+         <source file="..\obj\port.o" lastModified="14eb83c07dc"/>
+         <source file="..\obj\system_stm32f0xx.o" lastModified="14eb83c0926"/>
+         <source file="..\obj\croutine.o" lastModified="14eb83c0a3e"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="14eb83c0b93"/>
+         <source file="..\obj\stm32f0xx_wwdg.o" lastModified="14eb83c0cab"/>
+         <source file="..\obj\nRF24L01+.o" lastModified="14eb83c0e4f"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="14eb83c0f55"/>
+         <source file="..\obj\stm32f0xx_pwr.o" lastModified="14eb83c10b3"/>
+         <source file="..\obj\heap_2.o" lastModified="14eb83c11cb"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="14eb83c12d9"/>
+      </target>
+   </processor>
+</history>
