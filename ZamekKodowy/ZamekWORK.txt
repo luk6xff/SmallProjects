@@ -1,0 +1,6 @@
+12-04-2014
+* added a new task  " static void vIrqNrfTask(unsigned portBASE_TYPE uxPriority)" for receiving IRQ signal from NRF24L01+
+
+13-04-2014
+
+*added correct parsing data. Only whan you want to read data form nRF24LO1,  your received data will be available to read from SPITask. Data wchich is written , is not read back (i mean status register) :)  
