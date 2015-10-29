@@ -3,3 +3,9 @@
 *.o
 *.d
 *.mk
+.hg
+*.hgignore
+*.htm
+*.lib
+*.bld
+mbed
