@@ -11,6 +11,8 @@
 #define SIMPLE_DATA_TEST_ENABLED_0
 #define MSG1_DATA_TEST_ENABLED
 
+#define MSG1_BROADCAST_TEST_ENABLED
+
 
 //DigitalOut myled(LED1);
 
@@ -35,8 +37,8 @@ static const uint8_t *parseDataFrameToSend(const uint8_t* data_msg, uint8_t data
     
     uint8_t lengthCrc= 2;
     uint8_t StartByteAndDataLength =2;
-    uint8_t wholeFrameLength= dataLength+lengthCrc+StartByteAndDataLength;
-    uint16_t crc = computeCRC16((const uint8_t *)data_msg1, dataLength);
+    uint8_t wholeFrameLength= dataLength+lengthCrc+StartByteAndDataLength+1; //+1 for NULL
+    uint16_t crc = computeCRC16((const uint8_t *)data_msg, dataLength);
        
     uint8_t* ptr= new uint8_t[wholeFrameLength];
     if(!ptr||msgType>=MSG_UNKNOWN)
@@ -47,8 +49,9 @@ static const uint8_t *parseDataFrameToSend(const uint8_t* data_msg, uint8_t data
     else if(msgType==MSG_DATA)
         ptr[1]=dataLength|0x80;
     memcpy(&ptr[2],data_msg,dataLength);
-    ptr[wholeFrameLength-2]=((crc>>8)&0xFF);
-    ptr[wholeFrameLength-1]=((crc)&0xFF);
+    ptr[wholeFrameLength-3]=((crc>>8)&0xFF);
+    ptr[wholeFrameLength-2]=((crc)&0xFF);
+    ptr[wholeFrameLength-1]=NULL;
     return ptr;   
 }
 
@@ -90,10 +93,18 @@ int main() {
         const uint8_t* dataPtr= parseDataFrameToSend(data_msg1,sizeof(data_msg1)/sizeof(data_msg1[0]),MSG_DATA);
         hm11->sendDataToDevice((const char*)dataPtr);
         delete[] dataPtr;
-        wait(0.2);
+        wait(1);
 
 #endif    
  
-        
+#ifdef  MSG1_BROADCAST_TEST_ENABLED
+
+        const uint8_t* dataPtrB= parseDataFrameToSend(broadcast_msg1,sizeof(broadcast_msg1)/sizeof(broadcast_msg1[0]),MSG_BROADCAST);
+        hm11->sendDataToDevice((const char*)dataPtrB);
+        delete[] dataPtrB;
+        wait(1);
+
+
+#endif 
     }
 }
