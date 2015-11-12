@@ -219,7 +219,7 @@ public:
     bool isCorrectCommand(const char* command, HM11CommandType cmdType);
     
     int sendDataToDevice(const char* data);
-    
+    int sendDataToDevice(const uint8_t * byteData,uint8_t dataLength);
     int isRxDataAvailable();
     
     inline uint8_t getDataFromRx() {

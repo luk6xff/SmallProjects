@@ -85,6 +85,11 @@
         return mSerial.printf(data);
     }
     
+    int HM11::sendDataToDevice(const uint8_t * byteData,uint8_t dataLength){
+    
+        return mSerial.write(byteData,dataLength);
+    }
+    
     
     int HM11::isRxDataAvailable(){
         return mSerial.readable();
