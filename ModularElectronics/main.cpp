@@ -100,7 +100,7 @@ int main() {
         if(counter>9)
             counter=0;
         hm11->sendDataToDevice(buf);
-        wait(0.2);
+        //wait(0.2);
         
          while(hm11->isRxDataAvailable())                    
                usbDebug.printf("data:  %c\r\n",hm11->getDataFromRx());
@@ -118,7 +118,7 @@ int main() {
         usbDebug.printf("dataLength:  %d\r\n",allDataLength);
         delete[] dataPtr;
         msgCounter++;
-        wait(1);
+        //wait(1);
 
 #endif    
  
@@ -126,7 +126,7 @@ int main() {
         const uint8_t* dataPtrB= parseDataFrameToSend(broadcast_msg1,sizeof(broadcast_msg1)/sizeof(broadcast_msg1[0]),MSG_BROADCAST, &allDataLength);
         hm11->sendDataToDevice(dataPtrB, allDataLength);
         delete[] dataPtrB;
-        wait(1);
+        //wait(1);
 
 
 #endif 
