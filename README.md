@@ -1,2 +1,2 @@
 # SmallProjects
-Here you can find some of my tiny projects, code snippets, made for tests or stuff like this : )
+Here you can find some of my old tiny projects, code snippets, made for tests, fun or university or which were created long time ago :)
